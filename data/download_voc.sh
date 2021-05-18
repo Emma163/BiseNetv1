@@ -4,7 +4,8 @@
 # such as add cd /home/datasets
 cd data
 
-wget http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar
+#wget http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar
+wget https://www.kaggle.com/huanghanchina/pascal-voc-2012/download
 tar -xf VOCtrainval_11-May-2012.tar
 mkdir PascalVOC12
 mv VOCdevkit/VOC2012/* PascalVOC12
