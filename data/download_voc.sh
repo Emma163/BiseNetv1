@@ -16,3 +16,7 @@ unzip SegmentationClassAug.zip
 unzip SegmentationClassAug_Visualization.zip
 unzip list.zip
 mv list splits
+
+if [$1=="images"]; then
+  cp /content/drive/MyDrive/MLDL/JPEGImages /content/BiseNetv1/data/PascalVOC12
+fi
