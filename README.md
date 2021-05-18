@@ -18,7 +18,7 @@ python test.py
 
 On Colab:
 ```
-!git clone https://github.com/fcdl94/BiseNetv1.git
+!git clone https://github.com/Emma163/BiseNetv1.git
 %cd BiseNetv1
 !data/download_voc.sh
 ```
